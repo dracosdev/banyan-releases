@@ -1,0 +1,57 @@
+name: Bug report / Reportar um problema
+description: Something in Banyan is broken or behaves unexpectedly. / Algo no Banyan quebrou ou não funciona como esperado.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this. Search the [existing issues](https://github.com/dracosdev/banyan-releases/issues) first, in case it was already reported.
+        Obrigado por reportar. Procure antes nas [issues existentes](https://github.com/dracosdev/banyan-releases/issues), caso já tenha sido reportado.
+
+        **Security issues or account problems:** don't open a public issue, write to suporte@banyan.tools.
+        **Falhas de segurança ou problemas com a conta:** não abra uma issue pública, escreva para suporte@banyan.tools.
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened? / O que aconteceu?
+      description: A clear description of the problem. / Uma descrição clara do problema.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce / Passos para reproduzir
+      placeholder: |
+        1. Open a repository / Abrir um repositório
+        2. Click on... / Clicar em...
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect? / O que você esperava?
+    validations:
+      required: false
+  - type: input
+    id: version
+    attributes:
+      label: Banyan version / Versão do Banyan
+      description: Preferences → About. Filled in automatically when you report from the app. / Preferências → Sobre. Preenchido sozinho quando você reporta pelo app.
+      placeholder: "1.14.0"
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: Operating system / Sistema operacional
+      placeholder: "macOS 15 (Apple Silicon), Windows 11, Ubuntu 24.04..."
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or logs / Prints ou logs
+      description: Drag images here. Remove tokens, passwords and private code. / Arraste imagens aqui. Remova tokens, senhas e código privado.
+    validations:
+      required: false

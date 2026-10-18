@@ -1,0 +1,25 @@
+name: Feature request / Sugerir uma melhoria
+description: An idea to make Banyan better. / Uma ideia para deixar o Banyan melhor.
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would it solve? / Que problema isso resolve?
+      description: Tell us what you're trying to do and what gets in the way. / Conte o que você quer fazer e o que atrapalha hoje.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea / Sua ideia
+      description: How you picture it working. / Como você imagina que funcione.
+    validations:
+      required: false
+  - type: input
+    id: version
+    attributes:
+      label: Banyan version / Versão do Banyan
+      placeholder: "1.14.0"
+    validations:
+      required: false

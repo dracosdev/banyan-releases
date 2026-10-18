@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and community / Dúvidas e comunidade
+    url: https://github.com/dracosdev/banyan-releases/discussions
+    about: Ask how to do something, share feedback, talk with other users. / Tire dúvidas, dê feedback e converse com outros usuários.
+  - name: Private support (account, security) / Suporte privado (conta, segurança)
+    url: https://banyan.tools/support
+    about: Account, billing or security matters go to suporte@banyan.tools. / Assuntos de conta, cobrança ou segurança vão para suporte@banyan.tools.
